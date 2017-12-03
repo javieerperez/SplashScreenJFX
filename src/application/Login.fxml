@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField labelFloat="true" layoutX="316.0" layoutY="170.0" promptText="USUARIO" />
+      <JFXPasswordField layoutX="316.0" layoutY="264.0" promptText="CONTRASEÑA" />
+      <JFXButton buttonType="RAISED" defaultButton="true" layoutX="317.0" layoutY="362.0" prefHeight="31.0" prefWidth="169.0">
+         <ripplerFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </ripplerFill>
+      </JFXButton>
+      <Text layoutX="205.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGUEATE PARA ENTRAR" textAlignment="JUSTIFY" underline="true" wrappingWidth="390.9033203125">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
